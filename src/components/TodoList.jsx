@@ -13,7 +13,7 @@ function TodoList () {
         <>
             <input 
             type="text"
-            placeholder="Add task"
+            placeholder="Add your todos"
             value={task}
             onChange={(e)=> setTask(e.target.value)}
             />

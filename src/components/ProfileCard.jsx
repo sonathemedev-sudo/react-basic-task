@@ -5,9 +5,9 @@ function ProfileCard({name}) {
 
     return(
         <div>
-            <h2>{name}</h2>
+            <hr />
             <button onClick={() => setShow(!show)}>Show profile</button>
-            {show && <p>I'm a Full stack developer.</p>}
+            {show && <p>Hello there, this is {name} here and I'm Full stack developer.</p>}
         </div>
     )
 }

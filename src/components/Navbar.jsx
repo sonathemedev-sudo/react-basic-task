@@ -5,10 +5,10 @@ function Navbar() {
         <div className="navbar_wrapper">
             <div className="container">
                 <ul className="menu_list">
-                    <li className="menu_link">About</li>
-                    <li className="menu_link">My Projects</li>
-                    <li className="menu_link">Skills</li>
-                    <li className="menu_link">Expertise</li>
+                    <li className="menu_link"><a href="#">About</a></li>
+                    <li className="menu_link"><a href="#">My Projects</a></li>
+                    <li className="menu_link"><a href="#">Skills</a></li>
+                    <li className="menu_link"><a href="#">Expertise</a></li>
                 </ul>
             </div>
         </div>

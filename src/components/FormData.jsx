@@ -4,6 +4,7 @@ function FormData() {
     const [name, setName] = useState("");
     return(
         <>
+            <hr />
             <input 
             type="text"
             placeholder="Enter your name"
