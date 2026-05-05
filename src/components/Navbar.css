@@ -1,0 +1,22 @@
+.container {
+    max-width: 144rem;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+.navbar_wrapper {
+    padding: 1.2rem 0;
+}
+
+.menu_list {
+    padding-left: 0;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu_link {
+    list-style: none;
+}
